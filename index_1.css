@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  font-family: "Belleza", sans-serif;
+  font-weight: 100;
+}
+
+.Top {
+ width:100%;
+ height:50vh;
+ background-image: url("https://robertcatley.files.wordpress.com/2019/03/fans-film-posters.jpg");
+ background-repeat: no-repeat;
+ background-position: top;
+ background-size:cover;
+}
+.info {
+  position: relative;
+}
+.rank{
+  font-size: 48;
+  color: white;
+}
+.title{
+  font-size: 48px;
+  color: white;
+}
+.cast {
+  font-size: 24px;
+  color: white;
+  padding: 0;
+  margin:10px;
+  width: 200px;
+  word-wrap: normal;
+}
+.box{
+display: flex;
+flex-direction: column;
+position: absolute;
+bottom: 10%;
+
+}
+.cast-title {
+ padding: 0;
+ margin:0;
+  font-size: 36px;
+  font-weight: 300;
+  color: white;
+}
+.container {
+  width: 90vw;
+  height: fit-content;
+  padding: 20px;
+  background-color: blue;
+  display: flex;
+  margin: auto;
+}
+.moviePoster {
+  width: 400px;
+  height: auto;
+}
+.poster {
+  margin-left: auto;
+}
+.OtherReccomendations {
+  display: block;
+  float: right;
+  width: 70%;
+  height: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.footNotes {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  
+}
+.SearchBox{
+    text-align: center;
+}
+.SearchBox >h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+}
+.MovieSearch {
+  display: flex;
+  margin: auto;
+  width: 80vw;
+  height: 1em;
+  font-size: 30px;
+  border: 3px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+}
+
+ .otherReccomendations{
+     display: flex;
+     flex-direction:row;
+   width:100%;
+   height:fit-content;
+   overflow-x: auto;
+  overflow-y: hidden;
+   /* background-color:blueviolet; */
+ }
+ .adjust,.adjust-div{
+     width:200px;
+     margin:10px;
+     
+ }
+ .adjust:hover{
+     transition: transform 0.5s ease-in;
+     transform:scale(1.1);
+ }
